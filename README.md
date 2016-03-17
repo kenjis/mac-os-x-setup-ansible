@@ -6,7 +6,7 @@
 
 ```bash
 $ brew update
-$ brew install python ansible
+$ brew install ansible
 ```
 
 ### Execute
