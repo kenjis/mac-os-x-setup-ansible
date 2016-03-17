@@ -9,6 +9,14 @@ $ brew update
 $ brew install ansible
 ```
 
+### Install
+
+```bash
+$ git clone https://github.com/kenjis/mac-os-x-setup-ansible.git
+$ cd mac-os-x-setup-ansible/
+$ cp vars.yml.placeholder vars.yml
+```
+
 ### Execute
 
 ```bash
