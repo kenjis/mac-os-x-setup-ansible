@@ -21,11 +21,11 @@ $ cp vars.yml.placeholder vars.yml
 
 ```bash
 # e.g. execute all
-$ ansible-playbook localhost.yml -i hosts
+$ ansible-playbook -vv -i hosts localhost.yml
 
 # e.g. only install brew packages
-$ ansible-playbook localhost.yml -i hosts --tags=brew
+$ ansible-playbook -vv -i hosts --tags=brew localhost.yml
 
 # e.g. only install npm packages
-$ ansible-playbook localhost.yml -i hosts --tags=npm
+$ ansible-playbook -vv -i hosts --tags=npm  localhost.yml
 ```
