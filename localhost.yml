@@ -1,13 +1,13 @@
 - hosts: localhost
   connection: local
   gather_facts: no
-  sudo: no
   vars_files:
     - vars.yml
   vars:
 
     homebrew_taps:
       - caskroom/cask
+      - homebrew/php
 
     homebrew_packages:
       - { name: composer }
@@ -33,7 +33,7 @@
     # brew tap
     - name: install taps of homebrew
       homebrew_tap: tap="{{ item }}" state=present
-      with_items: homebrew_taps
+      with_items: "{{ homebrew_taps }}"
       tags:
         - brew
 
@@ -46,11 +46,11 @@
     # brew instal
     - name: install homebrew packages
       homebrew: name="{{ item.name }}" state="{{ item.state|default('latest') }}" install_options="{{ item.install_options|default() }}"
-      with_items: homebrew_packages
+      with_items: "{{ homebrew_packages }}"
       tags:
         - brew
 
     # brew cask install
     - name: install homebrew cask packages
       homebrew_cask: name="{{ item }}" state=present
-      with_items: homebrew_cask_packages
+      with_items: "{{ homebrew_cask_packages }}"
