@@ -1,6 +1,9 @@
 - hosts: localhost
   connection: local
   gather_facts: no
+  become: no
+  environment:
+    HOMEBREW_CASK_OPTS: "--appdir=/Applications"
   vars_files:
     - vars.yml
   vars:
@@ -22,7 +25,9 @@
       - google-chrome
       - gpgtools
       - heroku-toolbelt
+      - java
       - libreoffice
+      - netbeans
       - simplecap
       - spideroakone
       - vagrant
