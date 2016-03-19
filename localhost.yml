@@ -27,11 +27,13 @@
       - heroku-toolbelt
       - java
       - libreoffice
-      - netbeans
+      - netbeans-php
+      - scroll-reverser
       - simplecap
       - spideroakone
       - vagrant
       - virtualbox
+      - virtualbox-extension-pack
       - xmind
 
   tasks:
