@@ -1,4 +1,4 @@
-# Mac OS X provisioner
+# Mac OS X Provisioner
 
 ## Usage
 
@@ -21,11 +21,11 @@ $ cp vars.yml.placeholder vars.yml
 
 ```bash
 # e.g. execute all
-$ ansible-playbook -vv -i hosts localhost.yml
+$ ansible-playbook -vvv -i hosts localhost.yml
 
 # e.g. only install brew packages
-$ ansible-playbook -vv -i hosts --tags=brew localhost.yml
+$ ansible-playbook -vvv -i hosts --tags=brew localhost.yml
 
 # e.g. only install npm packages
-$ ansible-playbook -vv -i hosts --tags=npm  localhost.yml
+$ ansible-playbook -vvv -i hosts --tags=npm  localhost.yml
 ```
