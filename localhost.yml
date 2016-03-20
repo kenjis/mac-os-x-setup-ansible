@@ -11,9 +11,11 @@
     homebrew_taps:
       - caskroom/cask
       - homebrew/php
+      - homebrew/gui
 
     homebrew_packages:
       - { name: composer }
+      - { name: meld }
 
     homebrew_cask_packages:
       - adobe-reader
