@@ -14,7 +14,11 @@
       - homebrew/gui
 
     homebrew_packages:
-      - { name: composer }
+      - { name: php70-intl }
+      - { name: php70-opcache }
+      - { name: php70-apcu }
+      - { name: php70-mcrypt }
+      - { name: php70-xdebug }
       - { name: meld }
 
     homebrew_cask_packages:
@@ -31,6 +35,7 @@
       - libreoffice
       - netbeans-php
       - p4merge
+      - phpstorm
       - scroll-reverser
       - simplecap
       - spideroakone
