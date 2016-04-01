@@ -14,6 +14,7 @@
       - homebrew/gui
 
     homebrew_packages:
+      - { name: php70, install_option: with-phpdbg }
       - { name: php70-intl }
       - { name: php70-opcache }
       - { name: php70-apcu }
