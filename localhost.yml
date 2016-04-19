@@ -27,7 +27,7 @@
       - coteditor
       - dockertoolbox
       - dropbox
-      - firefox
+#      - firefox    Can't update Firefox, so I install it manually
       - flux
       - google-chrome
       - gpgtools
