@@ -44,6 +44,7 @@
       - virtualbox
       - virtualbox-extension-pack
       - xmind
+      - macdown
 
   tasks:
     # brew tap
