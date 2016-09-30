@@ -21,6 +21,7 @@
       - { name: php70-mcrypt }
       - { name: php70-xdebug }
       - { name: meld }
+      - { name: node }
 
     homebrew_cask_packages:
       - adobe-reader
@@ -45,6 +46,7 @@
       - virtualbox-extension-pack
       - xmind
       - macdown
+      - chatwork
 
   tasks:
     # brew tap
