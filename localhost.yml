@@ -22,6 +22,7 @@
       - { name: php70-xdebug }
       - { name: meld }
       - { name: node }
+      - { name: pandoc }
 
     homebrew_cask_packages:
       - adobe-reader
