@@ -45,6 +45,7 @@
       - virtualbox
       - virtualbox-extension-pack
       - xmind
+      - freemind
       - macdown
       - chatwork
 
