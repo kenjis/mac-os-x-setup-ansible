@@ -26,7 +26,7 @@
     homebrew_cask_packages:
       - adobe-reader
       - coteditor
-      - dockertoolbox
+      - docker
       - dropbox
 #      - firefox    Can't update Firefox, so I install it manually
       - flux
