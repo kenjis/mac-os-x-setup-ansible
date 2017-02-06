@@ -49,6 +49,7 @@
       - freemind
       - macdown
       - chatwork
+      - google-drive
 
   tasks:
     # brew tap
