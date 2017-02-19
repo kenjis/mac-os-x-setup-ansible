@@ -50,6 +50,7 @@
       - chatwork
       - google-drive
       - meld
+      - mplayerx
 
   tasks:
     # brew tap
