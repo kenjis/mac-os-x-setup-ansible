@@ -51,6 +51,7 @@
       - google-drive
       - meld
       - mplayerx
+      - sourcetree
 
   tasks:
     # brew tap
