@@ -14,12 +14,12 @@
       - homebrew/gui
 
     homebrew_packages:
-      - { name: php70, install_option: with-phpdbg }
-      - { name: php70-intl }
-      - { name: php70-opcache }
-      - { name: php70-apcu }
-      - { name: php70-mcrypt }
-      - { name: php70-xdebug }
+      - { name: php72, install_option: with-phpdbg }
+      - { name: php72-intl }
+      - { name: php72-opcache }
+      - { name: php72-apcu }
+      - { name: php72-mcrypt }
+      - { name: php72-xdebug }
       - { name: node }
       - { name: pandoc }
 
